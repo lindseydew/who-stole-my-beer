@@ -1,8 +1,25 @@
 ".container": {
-	backgroundColor:"white"
+	backgroundColor:"#000"
 },
 "Label": {
 	width: Ti.UI.SIZE,
 	height: Ti.UI.SIZE,
-	color: "#000"
-} 
+	color: "#000",
+	top:'0dp'
+},
+"#play": {
+	top:'100dp',
+	left:'40dp'
+},
+"#instructions": {
+	top:'200dp',
+	left:'40dp'
+},
+"#about": {
+	top:'300dp',
+	left:'40dp'
+},
+"#leaderboard": {
+	top:'400dp',
+	left:'40dp'
+}  
