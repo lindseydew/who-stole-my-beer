@@ -25,7 +25,6 @@ function Controller() {
     $.__views.index = A$(Ti.UI.createWindow({
         backgroundColor: "#000",
         backgroundImage: "/images/woodbg.png",
-        barColor: "#369",
         title: "Tab 1",
         id: "index"
     }), "Window", null);
