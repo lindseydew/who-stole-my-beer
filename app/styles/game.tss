@@ -1,3 +1,40 @@
 ".container": {
-	backgroundColor: "white"
+	backgroundColor:"#000",
+	backgroundImage:"/images/woodbg.png"
+},
+"Label": {
+	color:"#fff"
 }
+"#infoBar": {
+	bottom:0,
+	height:"60dp",
+	backgroundColor:"#ff0"
+},
+"#clue": {
+	bottom:0,
+	height:"60dp",
+	backgroundColor:"#369",
+	width:"80%",
+	right:0
+},
+"#timer": {
+	bottom:0,
+	height:"60dp",
+	backgroundColor:"#523",
+	width:"80%",
+	left:0
+},
+"#timer": {
+	bottom:0,
+	height:"60dp",
+	backgroundColor:"#523",
+	width:"80%",
+	left:0
+},
+"#gameView": {
+	top:"20dp",
+	height:"300dp",
+	backgroundColor:"#ff0",
+	width:"80%"
+}
+
