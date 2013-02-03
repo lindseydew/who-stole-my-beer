@@ -1,12 +1,4 @@
 function Controller() {
-    function hideAnimation() {
-        Ti.API.info("hide animation");
-        var gameView = Alloy.createController("gameView").getView();
-        gameView.animate({
-            view: gameView,
-            transition: Ti.UI.iPhone.AnimationStyle.FLIP_FROM_LEFT
-        });
-    }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     $model = arguments[0] ? arguments[0].$model : null;
     var $ = this, exports = {}, __defers = {};
@@ -24,7 +16,6 @@ function Controller() {
         id: "gameView"
     }), "View", $.__views.game);
     $.__views.game.add($.__views.gameView);
-    hideAnimation ? $.__views.gameView.on("click", hideAnimation) : __defers["$.__views.gameView!click!hideAnimation"] = !0;
     $.__views.infoBar = A$(Ti.UI.createView({
         bottom: 0,
         height: "60dp",
@@ -60,7 +51,29 @@ function Controller() {
     $.__views.timer.add($.__views.visualTimer);
     exports.destroy = function() {};
     _.extend($, $.__views);
-    __defers["$.__views.gameView!click!hideAnimation"] && $.__views.gameView.on("click", hideAnimation);
+    var stdVal = 40, multiplier = 0, leftVal, j = 0, topVal = 10;
+    for (i = 0; i < 9; i++) {
+        multiplier++;
+        leftVal = stdVal * multiplier;
+        Ti.API.info("leftVal =" + leftVal);
+        Ti.API.info("J" + j);
+        if (j === 2) {
+            j = 0;
+            topVal += 75;
+            multiplier = 0;
+        }
+        j++;
+        Ti.API.info("topVal" + topVal);
+        var suspectsTile = Alloy.createController("suspectsTile", {
+            pk: i,
+            backgroundImage: "/images/suspects/suspect1.jpg",
+            backgroundColor: "#222",
+            left: leftVal,
+            top: topVal
+        }).getView();
+        $.gameView.add(suspectsTile);
+    }
+    $.gameView.backgroundColor = "pink";
     _.extend($, exports);
 }
 

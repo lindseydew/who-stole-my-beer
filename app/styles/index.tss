@@ -1,8 +1,3 @@
-".container": {
-	backgroundColor:"#000",
-	backgroundImage:"/images/woodbg.png",
-	barColor:"#369"
-},
 "Label": {
 	width: Ti.UI.SIZE,
 	height: Ti.UI.SIZE,

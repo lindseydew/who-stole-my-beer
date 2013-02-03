@@ -3,15 +3,16 @@ function Controller() {
     $model = arguments[0] ? arguments[0].$model : null;
     var $ = this, exports = {}, __defers = {};
     $.__views.window2 = A$(Ti.UI.createWindow({
-        backgroundColor: "white",
+        backgroundColor: "#000",
+        backgroundImage: "/images/woodbg.png",
         id: "window2"
     }), "Window", null);
     $.addTopLevelView($.__views.window2);
-    $.__views.__alloyId4 = A$(Ti.UI.createLabel({
+    $.__views.__alloyId5 = A$(Ti.UI.createLabel({
         text: "gfsfdgsdfg",
-        id: "__alloyId4"
+        id: "__alloyId5"
     }), "Label", $.__views.window2);
-    $.__views.window2.add($.__views.__alloyId4);
+    $.__views.window2.add($.__views.__alloyId5);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);
