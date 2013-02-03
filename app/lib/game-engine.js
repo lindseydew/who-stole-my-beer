@@ -6,7 +6,7 @@ exports.StartNewGame=function()
 	suspectCount=initial_suspect_count;  
 	suspectsList=GetSuspects(suspectCount, criminalPerson.id);
 	cluesList=dataLayer.GetClues(criminalPerson);
-
+}
 exports.Accuse=function(person){
 	if (person.id=criminalPerson.id){
 		return true;
@@ -32,9 +32,13 @@ exports.GetFinalGameRatingImage=function(score) // Pass back an image path for t
 }
 exports.OnTick=function(){
  // TODO
+ 	// See if we need to do anything yet
+// if (lastTickTime.add)timerInterval
+// lastTickTime=now();
 }
 exports.TimeOut=function(){
  // TODO
+ return false;
 }
 exports.PauseGame=function(){
  // TODO
@@ -43,7 +47,15 @@ exports.ResumeGame=function(){
  // TODO
 }
 exports.SetupLevel=function(levelId){
- // TODO
+	criminalPerson=dataLayer.GetCriminal();
+	suspectCount=suspectCount+1;  
+	if (remainingGameTime>10)
+	{
+		remainingGameTime=remainingGameTime-levelTimeReduction;
+	}
+	suspectsList=GetSuspects(suspectCount, criminalPerson.id);
+	cluesList=dataLayer.GetClues(criminalPerson);
+	
 }
 exports.AddScoreToLeaderBoard=function(score, playerName)
 {
