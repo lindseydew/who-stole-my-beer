@@ -1,9 +1,9 @@
-#appname: TiLondon
-#appid: com.TiLondon
-#type: mobile
-#guid: acdc5e30-eede-499f-84cb-8b6c2bb50d95
-#version: 1.0
-#publisher: not specified
-#url: not specified
-#image: appicon.png
-#desc: not specified
+#appname:TiLondon
+#appid:com.TiLondon
+#type:mobile
+#guid:acdc5e30-eede-499f-84cb-8b6c2bb50d95
+#version:1.0
+#publisher:dave
+#url:http://ww.tilondon.com
+#image:appicon.png
+#desc:not specified
