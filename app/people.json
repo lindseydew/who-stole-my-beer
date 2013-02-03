@@ -1,0 +1,287 @@
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "total": 20,
+    "result": [
+        {
+            "id": 1,
+            "picture": "http://placehold.it/32x32",
+            "name": "Vanessa Oswald",
+            "attributes": {
+                "hasMoustache": false,
+                "hasLongHair": true,
+                "hasShortHair": true,
+                "hasNoHair": true,
+                "wearsGlasses": true,
+                "isMale": false,
+                "isFemale": true
+            }
+        },
+        {
+            "id": 2,
+            "picture": "http://placehold.it/32x32",
+            "name": "Hailey Oldman",
+            "attributes": {
+                "hasMoustache": true,
+                "hasLongHair": false,
+                "hasShortHair": true,
+                "hasNoHair": false,
+                "wearsGlasses": false,
+                "isMale": true,
+                "isFemale": false
+            }
+        },
+        {
+            "id": 3,
+            "picture": "http://placehold.it/32x32",
+            "name": "Trinity Campbell",
+            "attributes": {
+                "hasMoustache": false,
+                "hasLongHair": false,
+                "hasShortHair": false,
+                "hasNoHair": true,
+                "wearsGlasses": false,
+                "isMale": false,
+                "isFemale": false
+            }
+        },
+        {
+            "id": 4,
+            "picture": "http://placehold.it/32x32",
+            "name": "Sarah Goodman",
+            "attributes": {
+                "hasMoustache": false,
+                "hasLongHair": false,
+                "hasShortHair": true,
+                "hasNoHair": true,
+                "wearsGlasses": false,
+                "isMale": false,
+                "isFemale": false
+            }
+        },
+        {
+            "id": 5,
+            "picture": "http://placehold.it/32x32",
+            "name": "Ella Nash",
+            "attributes": {
+                "hasMoustache": true,
+                "hasLongHair": false,
+                "hasShortHair": true,
+                "hasNoHair": true,
+                "wearsGlasses": true,
+                "isMale": false,
+                "isFemale": true
+            }
+        },
+        {
+            "id": 6,
+            "picture": "http://placehold.it/32x32",
+            "name": "Madelyn Gerald",
+            "attributes": {
+                "hasMoustache": false,
+                "hasLongHair": true,
+                "hasShortHair": true,
+                "hasNoHair": true,
+                "wearsGlasses": false,
+                "isMale": true,
+                "isFemale": false
+            }
+        },
+        {
+            "id": 7,
+            "picture": "http://placehold.it/32x32",
+            "name": "Samantha Fulton",
+            "attributes": {
+                "hasMoustache": true,
+                "hasLongHair": false,
+                "hasShortHair": false,
+                "hasNoHair": false,
+                "wearsGlasses": false,
+                "isMale": false,
+                "isFemale": true
+            }
+        },
+        {
+            "id": 8,
+            "picture": "http://placehold.it/32x32",
+            "name": "Rachel Davidson",
+            "attributes": {
+                "hasMoustache": true,
+                "hasLongHair": false,
+                "hasShortHair": true,
+                "hasNoHair": true,
+                "wearsGlasses": true,
+                "isMale": false,
+                "isFemale": true
+            }
+        },
+        {
+            "id": 9,
+            "picture": "http://placehold.it/32x32",
+            "name": "Makayla Ogden",
+            "attributes": {
+                "hasMoustache": true,
+                "hasLongHair": false,
+                "hasShortHair": false,
+                "hasNoHair": false,
+                "wearsGlasses": false,
+                "isMale": true,
+                "isFemale": false
+            }
+        },
+        {
+            "id": 10,
+            "picture": "http://placehold.it/32x32",
+            "name": "Olivia Chapman",
+            "attributes": {
+                "hasMoustache": true,
+                "hasLongHair": false,
+                "hasShortHair": true,
+                "hasNoHair": true,
+                "wearsGlasses": true,
+                "isMale": true,
+                "isFemale": true
+            }
+        },
+        {
+            "id": 11,
+            "picture": "http://placehold.it/32x32",
+            "name": "Anna Young",
+            "attributes": {
+                "hasMoustache": true,
+                "hasLongHair": false,
+                "hasShortHair": true,
+                "hasNoHair": false,
+                "wearsGlasses": false,
+                "isMale": true,
+                "isFemale": false
+            }
+        },
+        {
+            "id": 12,
+            "picture": "http://placehold.it/32x32",
+            "name": "Leah Sheldon",
+            "attributes": {
+                "hasMoustache": true,
+                "hasLongHair": true,
+                "hasShortHair": true,
+                "hasNoHair": false,
+                "wearsGlasses": true,
+                "isMale": false,
+                "isFemale": false
+            }
+        },
+        {
+            "id": 13,
+            "picture": "http://placehold.it/32x32",
+            "name": "Makayla Gill",
+            "attributes": {
+                "hasMoustache": true,
+                "hasLongHair": false,
+                "hasShortHair": false,
+                "hasNoHair": false,
+                "wearsGlasses": true,
+                "isMale": false,
+                "isFemale": true
+            }
+        },
+        {
+            "id": 14,
+            "picture": "http://placehold.it/32x32",
+            "name": "Amelia Vaughan",
+            "attributes": {
+                "hasMoustache": true,
+                "hasLongHair": true,
+                "hasShortHair": true,
+                "hasNoHair": false,
+                "wearsGlasses": false,
+                "isMale": true,
+                "isFemale": false
+            }
+        },
+        {
+            "id": 15,
+            "picture": "http://placehold.it/32x32",
+            "name": "Hailey Oldridge",
+            "attributes": {
+                "hasMoustache": true,
+                "hasLongHair": false,
+                "hasShortHair": true,
+                "hasNoHair": true,
+                "wearsGlasses": true,
+                "isMale": false,
+                "isFemale": true
+            }
+        },
+        {
+            "id": 16,
+            "picture": "http://placehold.it/32x32",
+            "name": "Kayla Neal",
+            "attributes": {
+                "hasMoustache": true,
+                "hasLongHair": false,
+                "hasShortHair": false,
+                "hasNoHair": true,
+                "wearsGlasses": true,
+                "isMale": true,
+                "isFemale": true
+            }
+        },
+        {
+            "id": 17,
+            "picture": "http://placehold.it/32x32",
+            "name": "Madison Higgins",
+            "attributes": {
+                "hasMoustache": true,
+                "hasLongHair": false,
+                "hasShortHair": true,
+                "hasNoHair": false,
+                "wearsGlasses": true,
+                "isMale": false,
+                "isFemale": true
+            }
+        },
+        {
+            "id": 18,
+            "picture": "http://placehold.it/32x32",
+            "name": "Kylie Gilbert",
+            "attributes": {
+                "hasMoustache": false,
+                "hasLongHair": false,
+                "hasShortHair": true,
+                "hasNoHair": true,
+                "wearsGlasses": false,
+                "isMale": false,
+                "isFemale": false
+            }
+        },
+        {
+            "id": 19,
+            "picture": "http://placehold.it/32x32",
+            "name": "Ella Campbell",
+            "attributes": {
+                "hasMoustache": false,
+                "hasLongHair": true,
+                "hasShortHair": true,
+                "hasNoHair": true,
+                "wearsGlasses": true,
+                "isMale": false,
+                "isFemale": true
+            }
+        },
+        {
+            "id": 20,
+            "picture": "http://placehold.it/32x32",
+            "name": "Kaylee Gilson",
+            "attributes": {
+                "hasMoustache": false,
+                "hasLongHair": false,
+                "hasShortHair": false,
+                "hasNoHair": true,
+                "wearsGlasses": false,
+                "isMale": false,
+                "isFemale": false
+            }
+        }
+    ]
+}
