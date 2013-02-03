@@ -1,5 +1,7 @@
 ".container": {
-	backgroundColor:"#000"
+	backgroundColor:"#000",
+	backgroundImage:"/images/woodbg.png",
+	barColor:"#369"
 },
 "Label": {
 	width: Ti.UI.SIZE,
@@ -8,18 +10,30 @@
 	top:'0dp'
 },
 "#play": {
-	top:'100dp',
-	left:'40dp'
+	top:'80dp',
+	backgroundImage:"/images/playgame.png",
+	width:300,
+	height:60
 },
 "#instructions": {
-	top:'200dp',
-	left:'40dp'
+	top:'160dp',
+	backgroundImage:"/images/controls.png",
+	width:300,
+	height:60
 },
 "#about": {
-	top:'300dp',
-	left:'40dp'
+	top:'240dp',
+	backgroundImage:"/images/about.png",
+	width:300,
+	height:60
 },
-"#leaderboard": {
-	top:'400dp',
-	left:'40dp'
-}  
+"#leaderbaord": {
+	top:'320dp',
+	backgroundImage:"/images/leaderboard.png",
+	width:300,
+	height:60
+},
+".back": {
+	top:"10dp",
+	right:"10dp"
+}

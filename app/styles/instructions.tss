@@ -1,3 +1,11 @@
 ".container": {
-	backgroundColor: "white"
+	backgroundColor:"#000",
+	backgroundImage:"/images/woodbg.png"
+},
+"#back": {
+	top:"10dp",
+	left:"10dp",
+	backgroundImage:"/images/backicon.png",
+	height:40,
+	width:40
 }

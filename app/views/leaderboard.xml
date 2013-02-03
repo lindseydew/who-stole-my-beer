@@ -1,4 +1,6 @@
 <Alloy>
-	<View class="container">
-	</View>
+	<Window class="container" id="leaderboard" title="Leaderboard">
+		<Label>Leaderboard</Label>
+		<Button id="back" title="" onClick="backToHome"></Button>
+	</Window>
 </Alloy>

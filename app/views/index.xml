@@ -1,9 +1,8 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label">Who stole my beer?</Label>
-		<Button id="play" title="Play" onClick="openPlayWin"></Button>
-		<Button id="instructions" title="Instructions" onClick="openInstructionsWin"></Button>
-		<Button id="about" title="About" onClick="openAboutWin"></Button>
-		<Button id="leaderbaord" title="Leaderboard" onClick="openLeaderboardWin"></Button>
+	<Window class="container" title="Tab 1">
+		<Button id="play" title="" onClick="openPlayWin"></Button>
+		<Button id="instructions" title="" onClick="openInstructionsWin"></Button>
+		<Button id="about" title="" onClick="openAboutWin"></Button>
+		<Button id="leaderbaord" title="" onClick="openLeaderboardWin"></Button>
 	</Window>
 </Alloy>

@@ -7,11 +7,11 @@ function Controller() {
         id: "window2"
     }), "Window", null);
     $.addTopLevelView($.__views.window2);
-    $.__views.__alloyId1 = A$(Ti.UI.createLabel({
+    $.__views.__alloyId4 = A$(Ti.UI.createLabel({
         text: "gfsfdgsdfg",
-        id: "__alloyId1"
+        id: "__alloyId4"
     }), "Label", $.__views.window2);
-    $.__views.window2.add($.__views.__alloyId1);
+    $.__views.window2.add($.__views.__alloyId4);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);
