@@ -32,3 +32,13 @@ function openLeaderboardWin (){
 	win.open();
 }
 
+/*
+// load the build.json
+var fileName = 'build.json';
+var file = Titanium.Filesystem.getFile(Titanium.Filesystem.resourcesDirectory, fileName);
+ 
+if (file.exists()) {
+  var dataSrc = Ti.Platform.osname==='android'? ''+file.read():file.read();
+  buildData = JSON.parse(dataSrc); 
+}
+*/
