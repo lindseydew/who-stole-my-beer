@@ -1,6 +1,6 @@
 <Alloy>
 	<Window class="container" id="about" title="About">
-		<Label>About Page</Label>
+		<Label>Hackathonic work in progress!</Label>
 		<Button id="back" title="" onClick="backToHome"></Button>
 	</Window>
 </Alloy>

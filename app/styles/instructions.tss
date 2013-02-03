@@ -4,4 +4,7 @@
 	backgroundImage:"/images/backicon.png",
 	height:40,
 	width:40
-}
+},
+"Label": {
+	color: "#fff"
+},

@@ -30,7 +30,7 @@
 "#gameView": {
 	top:"20dp",
 	height:"300dp",
-	backgroundColor:"#ff0",
-	width:"80%"
+	//backgroundColor:"#ff0",
+	width:"290"
 }
 
