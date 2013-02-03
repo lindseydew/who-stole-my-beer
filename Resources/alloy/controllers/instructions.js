@@ -14,7 +14,8 @@ function Controller() {
     }), "Window", null);
     $.addTopLevelView($.__views.instructions);
     $.__views.__alloyId2 = A$(Ti.UI.createLabel({
-        text: "Controls",
+        color: "#fff",
+        text: "Controls Hmm..",
         id: "__alloyId2"
     }), "Label", $.__views.instructions);
     $.__views.instructions.add($.__views.__alloyId2);

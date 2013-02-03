@@ -11,8 +11,7 @@ function Controller() {
     $.__views.gameView = A$(Ti.UI.createView({
         top: "20dp",
         height: "300dp",
-        backgroundColor: "#ff0",
-        width: "80%",
+        width: "290",
         id: "gameView"
     }), "View", $.__views.game);
     $.__views.game.add($.__views.gameView);
@@ -51,29 +50,27 @@ function Controller() {
     $.__views.timer.add($.__views.visualTimer);
     exports.destroy = function() {};
     _.extend($, $.__views);
-    var stdVal = 40, multiplier = 0, leftVal, j = 0, topVal = 10;
+    var stdLeftVal = 100, multiplier = 0, leftVal, j = 0, topVal = 0;
     for (i = 0; i < 9; i++) {
+        leftVal = stdLeftVal * multiplier;
         multiplier++;
-        leftVal = stdVal * multiplier;
-        Ti.API.info("leftVal =" + leftVal);
-        Ti.API.info("J" + j);
-        if (j === 2) {
-            j = 0;
-            topVal += 75;
-            multiplier = 0;
-        }
-        j++;
-        Ti.API.info("topVal" + topVal);
+        Ti.API.info("-> topVal=" + topVal + " leftVal= " + leftVal);
         var suspectsTile = Alloy.createController("suspectsTile", {
             pk: i,
-            backgroundImage: "/images/suspects/suspect1.jpg",
+            backgroundImage: "/images/suspects/suspect" + i + ".jpg",
             backgroundColor: "#222",
             left: leftVal,
             top: topVal
         }).getView();
         $.gameView.add(suspectsTile);
+        j++;
+        Ti.API.info("j now" + j);
+        if (j === 3) {
+            j = 0;
+            topVal += 100;
+            multiplier = 0;
+        }
     }
-    $.gameView.backgroundColor = "pink";
     _.extend($, exports);
 }
 

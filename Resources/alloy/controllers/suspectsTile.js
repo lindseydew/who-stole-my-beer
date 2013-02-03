@@ -8,15 +8,14 @@ function Controller() {
     $model = arguments[0] ? arguments[0].$model : null;
     var $ = this, exports = {}, __defers = {};
     $.__views.suspectsTile = A$(Ti.UI.createView({
-        width: "40dp",
-        height: "40dp",
+        width: "90",
+        height: "90",
         backgroundColor: "#b2bccc",
         id: "suspectsTile"
     }), "View", null);
     $.addTopLevelView($.__views.suspectsTile);
     hideAnimation ? $.__views.suspectsTile.on("click", hideAnimation) : __defers["$.__views.suspectsTile!click!hideAnimation"] = !0;
     $.__views.__alloyId4 = A$(Ti.UI.createLabel({
-        text: "Suspect No:",
         id: "__alloyId4"
     }), "Label", $.__views.suspectsTile);
     $.__views.suspectsTile.add($.__views.__alloyId4);

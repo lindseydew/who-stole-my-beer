@@ -1,5 +1,5 @@
 "#suspectsTile": {
-	width: "40dp",
-	height: "40dp",
+	width: "90",
+	height: "90",
 	backgroundColor: "#b2bccc"
 }

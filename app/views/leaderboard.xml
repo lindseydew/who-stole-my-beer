@@ -1,6 +1,6 @@
 <Alloy>
 	<Window class="container" id="leaderboard" title="Leaderboard">
-		<Label>Leaderboard</Label>
+		<Label>Coming soon...</Label>
 		<Button id="back" title="" onClick="backToHome"></Button>
 	</Window>
 </Alloy>
