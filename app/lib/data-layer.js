@@ -9,6 +9,20 @@ var file = Titanium.Filesystem.getFile(Titanium.Filesystem.resourcesDirectory, f
 	
 var peopleData = JSON.parse(data); 
 
+var fileNameClue = 'clues.txt';
+var fileClue = Titanium.Filesystem.getFile(Titanium.Filesystem.resourcesDirectory, fileName);
+ 
+ if (fileClue.exists()) {	
+	  var dataClue = Ti.Platform.osname==='android'? ''+fileClue.read():fileClue.read();
+	}
+	
+var peopleData = JSON.parse(data); 
+var clueData = JSON.parse(dataClue); 
+
 exports.getSuspects = function() {
 	return peopleData;
+}
+
+exports.getClues = function() {
+	return clueData;	
 }

@@ -1,12 +1,14 @@
 // setup suspects
 //var data = [];
+
+var data = require('data-layer');
 var stdVal = 40;
 var multiplier = 0;
 var leftVal;
 var j = 0;
 var topVal = 10;
-
-for (i = 0; i < 9; i++) {     
+var data = data.people
+for (i = 0; i < len(data.people); i++) {     
 	
 	multiplier++;
 	

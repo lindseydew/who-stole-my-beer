@@ -6,7 +6,9 @@ function guid() {
     return S4() + S4() + "-" + S4() + "-" + S4() + "-" + S4() + "-" + S4() + S4() + S4();
 }
 
-function InitAdapter(config) {}
+function InitAdapter(config) {
+    throw "localStorage persistence supported only with MobileWeb.";
+}
 
 function Sync(model, method, opts) {
     function storeModel(data) {

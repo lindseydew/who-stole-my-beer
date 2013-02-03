@@ -2,7 +2,7 @@
 //    alert($.label.text);
 //}
 
-var data = require('data-layer');
+var data = require('game-engine');
 
 $.index.open();
 
@@ -11,7 +11,8 @@ function openPlayWin (){
 	var controller = Alloy.createController('game');
 	var win = controller.getView();
 	win.open();
-	var suspects = data.getSuspects();
+	initialiseGame = data.StartNewGame();
+	
 }
 
 function openInstructionsWin (){

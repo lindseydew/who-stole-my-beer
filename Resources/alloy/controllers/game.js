@@ -51,8 +51,8 @@ function Controller() {
     $.__views.timer.add($.__views.visualTimer);
     exports.destroy = function() {};
     _.extend($, $.__views);
-    var stdVal = 40, multiplier = 0, leftVal, j = 0, topVal = 10;
-    for (i = 0; i < 9; i++) {
+    var data = require("data-layer"), stdVal = 40, multiplier = 0, leftVal, j = 0, topVal = 10, data = data.people;
+    for (i = 0; i < len(data.people); i++) {
         multiplier++;
         leftVal = stdVal * multiplier;
         Ti.API.info("leftVal =" + leftVal);
