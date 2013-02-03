@@ -6,21 +6,14 @@
 	height:"60dp",
 	backgroundColor:"#ff0"
 },
-"#clue": {
+"#timer": {
 	bottom:0,
 	height:"60dp",
 	backgroundColor:"#369",
-	width:"80%",
+	width:"20%",
 	right:0
 },
-"#timer": {
-	bottom:0,
-	height:"60dp",
-	backgroundColor:"#523",
-	width:"80%",
-	left:0
-},
-"#timer": {
+"#clue": {
 	bottom:0,
 	height:"60dp",
 	backgroundColor:"#523",
@@ -32,5 +25,14 @@
 	height:"300dp",
 	//backgroundColor:"#ff0",
 	width:"290"
+},
+"#imageClue": {
+	backgroundImage:"/images/clue0.jpg",
+	width:90,
+	height:50
+},
+"#nextClue": {
+	right:20,
+	color:"#ff0"
 }
 
