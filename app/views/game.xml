@@ -1,6 +1,6 @@
 <Alloy>
 	<Window class="container">
-		<View id="gameView" onClick="hideAnimation"></View>
+		<View id="gameView"></View>
 		<View id="infoBar">
 			<View id="clue"></View>
 			<View id="timer">
