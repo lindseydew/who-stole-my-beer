@@ -2,10 +2,10 @@ var dataLayer=require('data-layer');
 
 exports.StartNewGame=function()
 {
-	criminalPerson=DataLayer.GetCriminal();
+	criminalPerson=dataLayer.GetCriminal();
 	suspectCount=initial_suspect_count;  
 	suspectsList=GetSuspects(suspectCount, criminalPerson.id);
-}
+	cluesList=dataLayer.GetClues(criminalPerson);
 
 exports.Accuse=function(person){
 	if (person.id=criminalPerson.id){

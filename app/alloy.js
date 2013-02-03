@@ -14,6 +14,7 @@
 // variables here etc all available in all controllers/
 var criminalPerson;			// The guilty person
 var suspectsList; 			// people collection randomly chosen from available suspects
+var cluesList;				// A collection of clues
 var suspectCount;			// An incremented value changed each level to find out how many people to get		
 var remainingGameTime;		// How long is left before timeout
 var totalTimeThisLevel; 	// How many seconds will this level last for
