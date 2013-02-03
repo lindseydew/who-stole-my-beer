@@ -40,3 +40,46 @@ for (i = 0; i < len(data.people); i++) {
 
 //Ti.API.info('data :' + data);
 //$.gameView.setData(data);
+
+
+var Timer;
+var TotalSeconds;
+
+time = 30;
+
+var si;
+
+
+function CreateTimer(TimerID, Time) {
+    si = setInterval(function(){Tick(TimerID)},1000);
+}
+
+function Tick(TimerID) {
+	Ti.API.info('tick called');
+		if (time === 0){
+			clearInterval(si);
+			//alert('time up');
+			var controller = Alloy.createController('leaderboard');
+			var win = controller.getView();
+			win.open();
+			$.game.close();
+			
+		}else{
+	    time--;
+	    Ti.API.info('time'+time);
+	    TimerID.text = time;
+   }
+}
+
+function UpdateTimer() {
+	Ti.API.info('UpdateTimer called');
+    Timer.text = TotalSeconds;
+}
+
+
+CreateTimer($.timerLabel, 30);
+
+
+
+
+

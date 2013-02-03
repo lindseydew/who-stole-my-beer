@@ -2,10 +2,15 @@
 	<Window class="container">
 		<View id="gameView"></View>
 		<View id="infoBar">
-			<View id="clue"></View>
+			<View id="clue">
+				<ImageView id="imageClue"></ImageView>
+				<Label id="nextClue">next &gt;</Label>
+			</View>
 			<View id="timer">
 				<View id="mask"></View>
-				<View id="visualTimer"></View>
+				<View id="visualTimer">
+					<Label id="timerLabel">30</Label>
+				</View>
 			</View>
 		</View>
 	</Window>
