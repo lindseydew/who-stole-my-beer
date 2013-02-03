@@ -14,7 +14,8 @@ function Controller() {
     }), "Window", null);
     $.addTopLevelView($.__views.leaderboard);
     $.__views.__alloyId3 = A$(Ti.UI.createLabel({
-        text: "Leaderboard",
+        color: "#fff",
+        text: "Coming soon...",
         id: "__alloyId3"
     }), "Label", $.__views.leaderboard);
     $.__views.leaderboard.add($.__views.__alloyId3);
