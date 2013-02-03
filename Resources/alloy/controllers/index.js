@@ -3,6 +3,10 @@ function Controller() {
         Ti.API.info("open play window");
         var controller = Alloy.createController("game"), win = controller.getView();
         win.open();
+        var suspects = data.getSuspects();
+        Ti.API.info("grabbing the suspects");
+        var people = suspects.people[0];
+        Ti.API.info(people);
     }
     function openInstructionsWin() {
         Ti.API.info("open instruction window");
@@ -72,6 +76,7 @@ function Controller() {
     openLeaderboardWin ? $.__views.leaderbaord.on("click", openLeaderboardWin) : __defers["$.__views.leaderbaord!click!openLeaderboardWin"] = !0;
     exports.destroy = function() {};
     _.extend($, $.__views);
+    var data = require("data-layer");
     $.index.open();
     __defers["$.__views.play!click!openPlayWin"] && $.__views.play.on("click", openPlayWin);
     __defers["$.__views.instructions!click!openInstructionsWin"] && $.__views.instructions.on("click", openInstructionsWin);
